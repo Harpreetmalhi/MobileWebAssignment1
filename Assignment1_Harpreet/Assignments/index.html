@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--Harpreet Singh-->
+<!--991451527-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Harpreet Singh</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body style="background-image: url('images/pattern.jpg')">
+<div class="gridArea">
+    <section>
+        <header class="head">
+            <h2>Assignment 1</h2>
+            <h3> Harpreet Singh </h3>
+            <h3> 991451527 </h3>
+            <p><img height="150px" width="150px" src="images/profilepic.jpg"></p>
+        </header>
+    </section>
+    <section class="content">
+        <form id="quote">
+            <fieldset id="s1">
+                <legend>Quote Form</legend>
+                <p class="group"><label for="name">Contact Name</label>
+                    <input type="text" name="name" id="name" value=""></p>
+                <p class="group"><label for="height">Room Height</label>
+                    <input type="number" name="height" id="height" value=""></p>
+                <p class="group"><label for="width">Room Width</label>
+                    <input type="number" name="width" id="width" value=""></p>
+                <p class="group"><label for="color">Choose Color</label>
+                    <input type="color" name="color" id="color" value=""></p>
+                <p class="group"><label for="select">Select Paint Type</label>
+                    <select id="select">
+                        <optgroup label="Kindly select a type of paint"/>
+                        <option value="24.99">Standard</option>
+                        <option value="39.99">Premium</option>
+                    </select>
+                </p>
+                <p class="group">
+                    <input type="submit" name="submit" id="submit"  onclick="saveDataToLocalStorage()" value="Get Quote"></p>
+            </fieldset>
+        </form>
+    </section>
+    <section class="footer">
+        <hr/>
+        <p>SING5062</p>
+        <p>Davic</p>
+    </section>
+</div>
+
+</body>
+
+</html>
